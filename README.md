@@ -10,4 +10,3 @@ You are responsible for designing a service which will support a beverage vendin
 5. Upon transaction completion, any unused quarters must be dispensed back to the  customer.  
 6. All test interactions will be performed with a single content type of “application/json”. 
 
-
