@@ -1,0 +1,25 @@
+{
+  "name": "vendomatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmmatthews15/vendomatic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmmatthews15/vendomatic/issues"
+  },
+  "homepage": "https://github.com/kmmatthews15/vendomatic#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^5.9.7",
+    "underscore": "^1.10.2"
+  }
+}
