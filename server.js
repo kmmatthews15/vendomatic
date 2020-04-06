@@ -34,6 +34,7 @@ app.use(require('./routes'));
 
 require('./models/inventory.model');
 
+app.use(express.static(path.join(__dirname, 'build')));
 app.use(express.static(__dirname + 'public'));
 
 // Listener
