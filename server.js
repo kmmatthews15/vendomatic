@@ -40,7 +40,7 @@ if(process.env.NODE_ENV === 'production') {
    app.use(express.static('client/build'));
    // Catch all for not pre-defined html requests to load index.html
    app.get('*', (req, res) => {
-       res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+       res.sendFile(path.resolve(__dirname + '/client/build/index.html'));
    });
 }
 
