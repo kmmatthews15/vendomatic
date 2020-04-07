@@ -3,12 +3,12 @@
 You are responsible for designing a service which will support a beverage vending machine that is tessted VIA HTTP before being place into an production environment
 
 ## constraints 
-1. Machine only accepts US quarters - you physically cannot put anything else in, and you  can only put one coin in at a time.  
-2. Purchase price of an item is two US quarters.  
-3. Machine only holds five of each of the three beverages available to purchase in its  inventory.  
-4. Machine will accept more than the purchase price of coins, but will only dispense a single  beverage per transaction.  
-5. Upon transaction completion, any unused quarters must be dispensed back to the  customer.  
-6. All test interactions will be performed with a single content type of “application/json”. 
+1. Machine only accepts US quarters - you physically cannot put anything else in, and you  can only put one coin in at a time.  (sort of completed. the user can put in other coins but used an alert to prompt the user to get change back. still working on the logic for this)
+2. Purchase price of an item is two US quarters. (completed)
+3. Machine only holds five of each of the three beverages available to purchase in its inventory.  (completed)
+4. Machine will accept more than the purchase price of coins, but will only dispense a single  beverage per transaction. (sort of completed)
+5. Upon transaction completion, any unused quarters must be dispensed back to the  customer. (completed)
+6. All test interactions will be performed with a single content type of “application/json”. (not yet completed)
 
 ## installation
 First clone the repo somewhere on your Mac/Linux system: 
