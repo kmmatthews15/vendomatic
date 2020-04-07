@@ -21,5 +21,4 @@ git clone https://github.com/kmmatthews15/vendomatic.git
 4. cd back into the client folder and run 'npm start' to start the React front end!
 
 ## experience/ things I wish to implement
-During this process the front end came super easy to me. It didn't take me to long to implement any of it in React. 
-
+During this process the front end came super easy to me. It didn't take me too long to implement any of it in React. I did however run into some issues with connecting the backend to the React front end, and configuring all of the specifications. So one of my next goals is testing to complete some testing to make sure all of the specifications are correct. Another goal that I have is to get it deployed to Heroku!
